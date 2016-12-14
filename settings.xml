@@ -9,15 +9,15 @@
   <servers>
     <server>
       <id>nexus</id>
-      <username>${env.nexus-user}</username>
-      <password>${env.nexus-password}</password>
+      <username>${env.nexus_user}</username>
+      <password>${env.nexus_password}</password>
     </server>
   </servers>
   <mirrors>
     <mirror>
       <id>nexus</id>
       <mirrorOf>*</mirrorOf>
-      <url>${env.nexus-ip}/nexus/content/groups/public</url>
+      <url>${env.nexus_ip}/nexus/content/groups/public</url>
     </mirror>
   </mirrors>
   <profiles>
